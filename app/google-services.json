@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654525085208",
+    "project_id": "userlogindetails-e38d5",
+    "storage_bucket": "userlogindetails-e38d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654525085208:android:03a6b6ff016019aee6b56d",
+        "android_client_info": {
+          "package_name": "com.dhan_bazar.userlogindetails"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKCkZdjI9Ydpqg019md813SWX4zj5c4e4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

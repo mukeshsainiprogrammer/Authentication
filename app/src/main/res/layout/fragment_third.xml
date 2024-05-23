@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#F8C569"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/group3"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView"
+        android:background="@drawable/top_border_back"
+        android:backgroundTint="#fff"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Local"
+            android:textColor="#261C12"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="We love the earth and know you do too! Join us in reducing our local carbon footprint one order at a time.  "
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
+            android:textColor="#261C12"
+            />
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Join the Movement"
+            android:backgroundTint="#F8C569"
+            android:id="@+id/nextButton3"
+            android:layout_marginRight="30dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Login"
+            android:textColor="#261C12"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+</RelativeLayout>
